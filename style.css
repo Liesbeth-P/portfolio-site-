@@ -46,6 +46,9 @@ html {
 .padded-l  { padding-left: 5%;    }
 .padded-r  { padding-right: 5%;   }
 
+.margin-b-1 {margin-bottom: 1rem;}
+.margin-b-2 {margin-bottom: 2rem;}
+
 .padded-0 { padding: 0; }
 .padded-b-0 { padding-bottom: 0; }
 .margin-b-0 { margin-bottom: 0; }
@@ -150,6 +153,10 @@ header {
     padding: 2% 5%;
 }
 
+header a {
+    text-decoration: none;
+}
+
 footer a:hover { 
     color: #d3b4a2; 
 }
@@ -190,6 +197,54 @@ footer a:hover {
 
 .profile_image {
     border-radius: 100%;
+}
+
+.landscape {
+    padding-bottom: 60%;
+}
+
+.right-arrow {
+    max-width: 2rem;
+    margin-left: 1rem;
+    margin-top: 0.2rem;
+}
+
+/* Contact form */
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  font-family: inherit;
+  font-size: 0.9rem;
+  border: 2px solid #a2745c;
+  outline: none;
+}
+
+textarea {
+  min-height: 4rem;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #9b9b81;
+}
+
+form label {
+  display: block;
+  margin-top: 1rem;
+  color: #a2745c;
+  font-weight: bold;
+}
+
+form .button {
+
+  background: none;
+  border: 2px solid #a2745c;
+  color: #a2745c;
+  font-weight: bold;
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
 }
 
 /* Responsive video */
